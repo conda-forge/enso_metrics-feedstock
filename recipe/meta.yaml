@@ -27,6 +27,7 @@ requirements:
     - numpy
     - scipy
     - udunits2
+    - packaging
 
 test:
   imports:
