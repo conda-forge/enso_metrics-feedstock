@@ -22,11 +22,16 @@ requirements:
   run:
     - python
     - cartopy
-    - cdms2
-    - cdutil
-    - genutil
+    - xarray
+    - xcdat
+    - cftime
     - numpy
     - scipy
+    - matplotlib
+    - cartopy
+    - cmocean
+    - regionmask
+    - xesmf
     - udunits2
     - packaging
 
