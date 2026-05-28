@@ -27,7 +27,7 @@ requirements:
     - cftime
     - numpy
     - scipy
-    - matplotlib
+    - matplotlib-base
     - cartopy
     - cmocean
     - regionmask
