@@ -11,17 +11,16 @@ source:
 
 build:
   number: 1
-  skip: true  # [win]
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
   host:
-    - python
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python
+    - python {{ python_min }}
     - cartopy
     - xarray
     - xcdat
@@ -44,6 +43,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/CLIVAR-PRP/ENSO_metrics
