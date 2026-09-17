@@ -1,5 +1,5 @@
 {% set name = "enso_metrics" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/CLIVAR-PRP/ENSO_metrics/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 8cc687c950c239769a097baf64d1ceb0f97da1227b9e87fcae13ccc0a3702f1d
+  sha256: 479de90f2cc9129b904518d41ff65e6e3f7b75ce80efb6db1ee68cfda0893a24
 
 build:
   number: 0
